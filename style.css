@@ -44,6 +44,7 @@ button:hover{
 
     .active{
         font-weight: bold;
+        color:#ff523b !important;
     }
 
     .navbar-collapse{
@@ -121,6 +122,77 @@ button:hover{
     }
 
     /* End Section 2 */
+
+    /* Offer */
+    .offer{
+        background: radial-gradient(#fff, #ffd6d6);
+    }
+
+    .offer-text-p{
+        margin-top: 160px;
+    }
+
+    .offer-text-small{
+        padding-bottom: 20px;
+    }
+    /* End Offer */
+
+    /* Feedback  */
+    .feedback{
+        padding-top: 100px;
+    }
+
+    .fa-quote-left{
+        font-size: 34px;
+        color: #ff523b;
+        text-align: center;
+        width: 100%;
+        padding-top: 30px;
+    }
+
+    .feedback h4{
+        font-size: 16px;
+        color: #555;
+        font-weight: normal;
+        margin-top: 20px;
+        padding: 0 20px;
+    }
+
+    .feedback img{
+        margin-left: 90px;
+        border-radius: 50%;
+        margin-top: 20px;
+    }
+
+    .feedback .rating{
+        text-align: center;
+    }
+
+    .feedback h3{
+        text-align: center;
+        margin-top: 20px;
+        color: #555;
+        padding-bottom: 30px;
+    }
+
+    .feedback .col-xl-4{
+        border-radius: 30px;
+        background: #e0e0e0;
+        box-shadow:  7px 7px 5px #a8a8a8,
+            -7px -7px 5px #ffffff;
+        padding: unset;
+        width: 31.5%;
+        margin: 10px;
+    }
+    /* End Feedback */
+
+
+
+
+
+
+
+
 
 /* Responsive */
 
