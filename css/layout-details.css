@@ -1,0 +1,184 @@
+
+a {
+    color: #333;
+}
+
+p {
+    margin-bottom: unset;
+}
+
+a:hover{
+    color: #333;
+}
+
+.single-link{
+    margin-top: 50px;
+    text-align: right;
+}
+
+.single-product h4 {
+    color: #333;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.single-product h1{
+    margin-top: 10px;
+}
+
+.single-product select{
+    width: 200px;
+    border:#ff523b 1px solid;
+}
+
+.form-select , .input-select{
+    margin: 10px 0;
+}
+
+.input-select{
+    padding: .375rem .75rem .375rem .75rem;
+    border-radius: .25rem;
+    border:#ff523b 1px solid;
+    width: 200px;
+}
+
+.single-product button{
+    margin: 30px 0;
+}
+
+.fa{
+    color: #ff523b !important;
+}
+
+.p-detail{
+    margin-top: 30px;
+}
+
+.small-img-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-img-col{
+    flex-basis: 200%;
+    cursor: pointer;
+    padding-bottom: 50px;
+}
+
+.small-img-col img {
+    margin-top: 20px;
+    width: 50%;
+}
+
+/* Cart Page */
+
+.cart-page{
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+.cart-info{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cart-info p {
+    font-size: 20px;
+}
+
+td h3{
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+th{
+    color: #fff;
+    background: #ff523b !important;
+}
+
+td input{
+    height: 40px;
+    width: 50px;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+td img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+td a{
+    color:#ff523b;
+    font-size: 12px;
+}
+
+td a:hover{
+    font-weight: bold;
+    color: #ff523b;
+}
+
+.total-price{
+    float: right;
+}
+
+.total-price td {
+    padding-left: 100px;
+}
+
+.total-price h3 {
+    margin-top: unset;
+    font-size: 18px;
+}
+
+td:last-child{
+    text-align: right;
+}
+
+/* End Cart Page */
+
+/* Responsive */
+@media (min-width:1200px){
+    .related a{
+        float: right;
+} 
+}
+
+/* Responsive  */
+
+@media (max-width:414px){
+    .small-img-col img{
+        margin-left: unset;
+    }
+
+    .form-select{
+        float: right;
+        margin: 0 20px 0 64px !important;
+    }
+
+    .single-product h4{
+        padding: 20px 0 20px 0px;
+        margin-bottom: unset;
+    }
+
+    .input-select{
+        margin-left: 82px;
+    }
+
+    .p-detail{
+        padding: 0 30px;
+    }
+
+    td input {
+        margin-left: 10px
+    }
+
+    td img {
+        margin-left: 50px
+    }
+
+    .cart-info{
+        text-align: center
+    }
+};

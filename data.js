@@ -1,0 +1,100 @@
+export default {
+    products: [
+        {
+            __id: '1',
+            name: 'Áo Thun Màu Đỏ',
+            category: 'Shirts',
+            image : './src/img/product-1.jpg',
+            price : '$50.00',
+            brand : 'LTV',
+            rating : 4.5,
+            numReviews: 10,
+            countInStock: 6,
+        },
+
+        {
+            __id: '2',
+            name: 'Áo Thun Màu Đỏ',
+            category: 'Shirts',
+            image : './src/img/product-2.jpg',
+            price : '$50.00',
+            brand : 'LTV',
+            rating : 4.5,
+            numReviews: 10,
+            countInStock: 6,
+        },
+
+        {
+            __id: '3',
+            name: 'Áo Thun Màu Đỏ',
+            category: 'Shirts',
+            image : './src/img/product-3.jpg',
+            price : '$50.00',
+            brand : 'LTV',
+            rating : 4.5,
+            numReviews: 10,
+            countInStock: 6,
+        },
+
+        {
+            __id: '4',
+            name: 'Áo Thun Màu Đỏ',
+            category: 'Shirts',
+            image : './src/img/product-4.jpg',
+            price : '$50.00',
+            brand : 'LTV',
+            rating : 4.5,
+            numReviews: 10,
+            countInStock: 6,
+        },
+
+        {
+            __id: '5',
+            name: 'Áo Thun Màu Đỏ',
+            category: 'Shirts',
+            image : './src/img/product-5.jpg',
+            price : '$50.00',
+            brand : 'LTV',
+            rating : 4.5,
+            numReviews: 10,
+            countInStock: 6,
+        },
+
+        {
+            __id: '6',
+            name: 'Áo Thun Màu Đỏ',
+            category: 'Shirts',
+            image : './src/img/product-6.jpg',
+            price : '$50.00',
+            brand : 'LTV',
+            rating : 4.5,
+            numReviews: 10,
+            countInStock: 6,
+        },
+
+        {
+            __id: '7',
+            name: 'Áo Thun Màu Đỏ',
+            category: 'Shirts',
+            image : './src/img/product-7.jpg',
+            price : '$50.00',
+            brand : 'LTV',
+            rating : 4.5,
+            numReviews: 10,
+            countInStock: 6,
+        },
+
+        {
+            __id: '8',
+            name: 'Áo Thun Màu Đỏ',
+            category: 'Shirts',
+            image : './src/img/product-8.jpg',
+            price : '$50.00',
+            brand : 'LTV',
+            rating : 4.5,
+            numReviews: 10,
+            countInStock: 6,
+        },
+        
+    ],
+};

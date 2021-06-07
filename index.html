@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- LINK CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
 
 </head>
 <body>
@@ -37,7 +37,7 @@
                             <a class="nav-link" href="#">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Product</a>
+                            <a class="nav-link" href="./product.html">Product</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Contact</a>
@@ -45,8 +45,8 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#">Account</a>
                         </li>
-                        <img src="./img/cart.png" alt="" width="30px" height="30px"> 
                     </ul>
+                        <a href="./cart.html"> <img src="./img/cart.png" alt="" width="30px" height="30px"> </a>  
                 </div>
             </div>
         </nav>
@@ -72,33 +72,39 @@
     <!-- END HEADER -->
 
     <!-- SECTION 1 -->
-    <div class="container p-5">
+    <div class="container p-xl-5">
         <div class="row mt-xl-5">
-            <div class="col-xl-4 col-md-12 p-5"> <img src="./img/category-1.jpg" class="w-100 shadow-2-strong rounded"> </div>
-            <div class="col-xl-4 col-md-12 p-5"> <img src="./img/category-2.jpg" class="w-100 shadow-2-strong rounded"> </div>
-            <div class="col-xl-4 col-md-12 p-5"> <img src="./img/category-3.jpg" class="w-100 shadow-2-strong rounded"> </div>
+            <div class="col-xl-4 col-md-12 p-xl-5"> <img src="./img/category-1.jpg" class="w-100 shadow-2-strong rounded"> </div>
+            <div class="col-xl-4 col-md-12 p-xl-5"> <img src="./img/category-2.jpg" class="w-100 shadow-2-strong rounded"> </div>
+            <div class="col-xl-4 col-md-12 p-xl-5"> <img src="./img/category-3.jpg" class="w-100 shadow-2-strong rounded"> </div>
         </div>
     </div>
     <!-- END SECTION 1 -->
 
     <!-- Section 2 -->
-    <div class="container mt-xl-5">
+    <div class="last">
+        <div class="container mt-xl-5">
         <h2 class="title"> Featured Products</h2>
         <div class="row">
+            
             <div class="col-xl-3 col-md-12">
-                <img src="./img/product-1.jpg" class="w-100 shadow-1-strong rounded mb-4">
-                <a href=""> <h4> Red Printed T-shirt</h4> </a> 
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-o" aria-hidden="true"></i>
-                </div>
-                <p> 50.00$</p>
+                <ul class="products">
+                    <li>
+                        <img src="./img/product-1.jpg" class="w-100 shadow-1-strong rounded mb-xl-4">
+                            <a href=""> <h4> Red Printed T-shirt</h4> </a> 
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                            </div>
+                        <p> 50.00$</p>
+                    </li>
+                </ul>
             </div>
             <div class="col-xl-3 col-md-12">
-                <img src="./img/product-2.jpg" class="w-100 shadow-1-strong rounded mb-4">
+                <img src="./img/product-2.jpg" class="w-100 shadow-1-strong rounded mb-xl-4">
                 <a href=""><h4> Red Printed T-shirt</h4> </a> 
                 <div class="rating">
                     <i class="fa fa-star"></i>
@@ -110,7 +116,7 @@
                 <p> 50.00$</p>
             </div>
             <div class="col-xl-3 col-md-12">
-                <img src="./img/product-3.jpg" class="w-100 shadow-1-strong rounded mb-4">
+                <img src="./img/product-3.jpg" class="w-100 shadow-1-strong rounded mb-xl-4">
                 <a href=""><h4> Red Printed T-shirt</h4> </a> 
                 <div class="rating">
                     <i class="fa fa-star"></i>
@@ -122,7 +128,7 @@
                 <p> 50.00$</p>
             </div>
             <div class="col-xl-3 col-md-12">
-                <img src="./img/product-4.jpg" class="w-100 shadow-1-strong rounded mb-4">
+                <img src="./img/product-4.jpg" class="w-100 shadow-1-strong rounded mb-xl-4">
                 <a href=""><h4> Red Printed T-shirt</h4> </a> 
                 <div class="rating">
                     <i class="fa fa-star"></i>
@@ -135,10 +141,13 @@
             </div>
         </div>
     </div>
+    </div>
+    
     <!-- End Section 2 -->
 
     <!-- Section 3 -->
-    <div class="container mt-xl-5">
+    <div class="last">
+        <div class="container mt-xl-5">
         <h2 class="title"> Latest Products</h2>
         <div class="row">
             <div class="col-xl-3 col-md-12">
@@ -191,6 +200,8 @@
             </div>
         </div>
     </div>
+    </div>
+    
     <!-- End Section 3 -->
 
     <!-- Offer -->
@@ -226,7 +237,7 @@
                         <i class="fa fa-star-o" aria-hidden="true"></i>
                     </div>
                     <img src="./img/user-1.png" alt="" class="w-50">
-                    <h3>Name User</h3>
+                    <h3>Vũ Thành Long</h3>
                 </div>
                 <div class="col-xl-4 col-md-12">
                     <i class="fa fa-quote-left"></i>
@@ -239,7 +250,7 @@
                         <i class="fa fa-star-o" aria-hidden="true"></i>
                     </div>
                     <img src="./img/user-2.png" alt="" class="w-50">
-                    <h3>Name User</h3>
+                    <h3>Long Thành Vũ</h3>
                 </div>
                 <div class="col-xl-4 col-md-12">
                     <i class="fa fa-quote-left"></i>
@@ -252,12 +263,99 @@
                         <i class="fa fa-star-o" aria-hidden="true"></i>
                     </div>
                     <img src="./img/user-3.png" alt="" class="w-50">
-                    <h3>Name User</h3>
+                    <h3>Xuân Thu</h3>
                 </div>
             </div>
         </div>
     </div>
     <!-- End Feedback -->
+
+    <!-- Brand -->
+    <hr style="color: #333;">
+    <div class="brand">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-2 col-md-12">
+                    <img src="./img/logo-coca-cola.png" alt="" class="w-100">
+                </div>
+                <div class="col-xl-2 col-md-12">
+                    <img src="./img/logo-godrej.png" alt="" class="w-100">
+                </div>
+                <div class="col-xl-2 col-md-12">
+                    <img src="./img/logo-oppo.png" alt="" class="w-100">
+                </div>
+                <div class="col-xl-2 col-md-12">
+                    <img src="./img/logo-paypal.png" alt="" class="w-100">
+                </div>
+                <div class="col-xl-2 col-md-12">
+                    <img src="./img/logo-philips.png" alt="" class="w-100">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Brand -->
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container pb-xl-3">
+            <div class="row">
+                <div class="col-xl-3 text-center"> 
+                    <h4>Download Our App</h4>
+                    <p>Download App For Android And Ios Mobie Phone</p>
+                    <div class="row app">
+                        <img src="./img/play-store.png" alt="" class="w-50">
+                        <img src="./img/app-store.png" alt="" class="w-50">
+                    </div>
+                </div>
+                <div class="col-xl-3">
+                    <h4></h4>
+                    <img src="./img/logo-white.png" alt="" class=" w-100 logo-white">
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="col-xl-3 text-center">
+                    <h4>
+                        Useful Links
+                    </h4>
+                    <a href="">
+                        <p> Coupons</p>
+                    </a>
+                    <a href="">
+                        <p>Big Post</p>
+                    </a>
+                    <a href="">
+                        <p>Sold Out</p>
+                    </a>
+                    <a href="">
+                        <p>Policy</p>
+                    </a>
+                </div>
+                <div class="col-xl-3 text-center">
+                    <h4>
+                        Follow Us
+                    </h4>
+                    <a href="">
+                        <p> FaceBook</p>
+                    </a>
+                    <a href="">
+                        <p>Twitter</p>
+                    </a>
+                    <a href="">
+                        <p>Instagrram</p>
+                    </a>
+                    <a href="">
+                        <p>Youtube</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        .<div class="container-fluid">
+            <hr>
+            <h2 class="copyright">
+                Code By Long Thành Vũ
+            </h2>
+        </div>
+    </div>
+    <!-- End Footer -->
 
     <!-- BOOTSTRAP JS -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>

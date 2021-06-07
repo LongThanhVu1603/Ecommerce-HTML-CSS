@@ -5,10 +5,18 @@ html, body{
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;    
+    overflow-x: hidden;
 }
 
+li {
+    list-style: none;
+}
 a{
     text-decoration: none;
+}
+
+h2 {
+    margin: 0;
 }
 
 button , .btn{
@@ -93,17 +101,17 @@ button:hover{
         transform: translateX(-50%);
     }
 
-    .col-xl-3 h4{
+    .last .col-xl-3 h4{
         color: #555;
         font-weight: normal;
         font-size: 20px;
     }
 
-    .col-xl-3 h4:hover{
+    .last .col-xl-3 h4:hover{
         font-weight: bold;
     }
 
-    .col-xl-3 p{
+    .last .col-xl-3 p{
         font-size: 14px;
         color: #555;
         font-weight: normal;
@@ -113,11 +121,11 @@ button:hover{
         color:#ff523b;
     }
 
-    .col-xl-3{
+    .last .col-xl-3{
         transition: transform 0.5s;
     }
 
-    .col-xl-3:hover{
+    .last .col-xl-3:hover{
         transform: translateY(-6px);
     }
 
@@ -126,20 +134,22 @@ button:hover{
     /* Offer */
     .offer{
         background: radial-gradient(#fff, #ffd6d6);
+        padding-bottom: 100px;
+        margin-top: 20px;
     }
 
     .offer-text-p{
         margin-top: 160px;
     }
 
-    .offer-text-small{
+    .offer small{
         padding-bottom: 20px;
     }
     /* End Offer */
 
     /* Feedback  */
     .feedback{
-        padding-top: 100px;
+        padding-bottom: 100px;
     }
 
     .fa-quote-left{
@@ -159,7 +169,6 @@ button:hover{
     }
 
     .feedback img{
-        margin-left: 90px;
         border-radius: 50%;
         margin-top: 20px;
     }
@@ -175,6 +184,149 @@ button:hover{
         padding-bottom: 30px;
     }
 
+    /* End Feedback */
+
+    /* Brand */
+    .brand{
+        padding: 50px;
+    }
+
+    .brand img{
+        cursor: pointer;
+        filter: grayscale(100%);
+    }
+
+    .brand img:hover{
+        filter: grayscale(0);
+    }
+    /* End Brand */
+
+    /* Footer */
+    .footer{
+        background-color: #000;
+    }
+
+    .footer h4 {
+        margin-top: 30px;
+        color: #fff;
+    }
+
+    .footer p{
+        font-size: 14px;
+        color: #fff;
+        font-weight:lighter;
+        margin-bottom: unset;
+        text-align: center;
+    }
+
+    .footer a p:hover{
+        color:#ff523b !important;
+    }
+
+    .footer h2{
+        margin-bottom: unset;
+    }
+
+    .copyright {
+        color: #fff;
+        text-align: center;
+        font-size: 14px;
+        padding: 10px 0;
+        font-weight: 300;
+        
+    }
+
+    hr {
+        height: 1px !important;
+        color: #fff;
+    }
+    /* End Footer */
+
+
+/* Responsive */
+
+/* Mobie */
+@media (max-width:414px) {
+    .navbar-nav{
+        text-align: center;
+    }
+    
+    .navbar-collapse img{
+        margin-left: 180px;
+    }
+
+    .text-h1 {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .text-p{
+        padding: 0 20px;
+        text-align: center;
+    }
+
+    .col-xl-6 {
+        text-align: center;
+    }
+
+    .col-md-12{
+        text-align: center;
+    }
+
+    .col-md-12 img {
+        width: 80% !important;
+    }
+
+    .last .title {
+        padding-top: 50px;
+        margin-bottom: 10px;
+    }
+
+    .offer-text-p {
+        margin-top: 50px;
+    }
+
+    .offer small{
+        padding: 0 20px;
+    }
+
+    .feedback {
+        padding-bottom: 20px;
+    }
+
+    .feedback img{
+        width: 50% !important;
+    }
+
+    .brand img {
+        width: 50% !important;
+    }
+
+    .col-md-12 img {
+        padding: 5px;
+    }
+
+    .footer .logo-white{
+        width: 50% !important;
+        margin-left: 100px;
+        padding-bottom: 20px;
+    }
+
+    .app {
+        padding-top: 20px;
+    }
+}
+
+/* PC */
+@media (min-width:1200px) {
+    .feedback{
+        padding-top: 100px;
+    }
+
+    .feedback img{
+        margin-left: 90px;
+    }
+
     .feedback .col-xl-4{
         border-radius: 30px;
         background: #e0e0e0;
@@ -184,20 +336,17 @@ button:hover{
         width: 31.5%;
         margin: 10px;
     }
-    /* End Feedback */
 
+    .brand .col-xl-2{
+        width: 20%;
+    }
 
+    .footer .col-xl-3 .logo-white{
+        margin-top: 10px;
+        padding-bottom: 10px;
+    }
 
-
-
-
-
-
-
-/* Responsive */
-
-@media (max-width:400px) {
-    img {
-        width: 50%;
+    .app img {
+        padding-top: 20px;
     }
 }

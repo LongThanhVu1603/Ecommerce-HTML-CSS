@@ -1,0 +1,41 @@
+a , span{
+    color: #000 !important;
+}
+
+.all-product select{
+    width: 200px;
+    float: right;
+    border:#ff523b 1px solid;
+}
+
+.page-item.active .page-link{
+    background-color: #ff523b;
+    border: #ff523b 1px solid;
+    color: #fff !important;
+}
+
+@media (min-width:1200px){
+    .pagination{
+    margin: auto;
+    padding-left: 410px;
+    padding-bottom: 30px;
+}
+}
+
+@media (max-width:414px){
+    .all-product select{
+        margin-right: 90px;
+        margin-bottom: 20px;
+    }
+
+    .all-product h2{
+        margin-top: 30px;
+    }
+
+    .pagination{
+        overflow: hidden;
+    }
+    .page-link{
+        margin-left: 50px;
+    }
+}
